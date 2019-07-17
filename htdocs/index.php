@@ -17,14 +17,14 @@
    
 
    <A href="https://www.healthplanet.jp/oauth/auth?client_id=1181.2JMsccpUcR.apps.healthplanet.jp&redirect_uri=http://ogasawarac.pm-chiba.tech/&scope=innerscan,pedometer&response_type=code
-"><font size="5">1:アクセス許可</font></A><br><br><br>
+"><font size="5">1:コードを取得</font></A><br><br><br>
 
 
 
      <form action='token.php' method='get'>
     
 
-    <p><font size='5'>2:コード</font></p>
+    <p><font size='5'>2:トークンを取得</font></p>
     <input type='text' name='code' size=60' ><br><br>
     <input type='submit' value='表示' style="width:120px; height:40px; "/>
 
@@ -36,7 +36,7 @@
     <form action='jsondata.php' method='get'>
     
 
-      <p><font size='5'>3:アクセストークン</font></p>
+      <p><font size='5'>3:アクセストークンを入力</font></p>
       <input type='text' name='token' size=60' ><br><br>
       <input type='submit' value='表示' style="width:120px; height:40px; "/>
 
