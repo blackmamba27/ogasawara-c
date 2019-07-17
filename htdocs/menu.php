@@ -75,6 +75,10 @@ $counter = $i;
     <h4>５食目　玄米ご飯1.5杯、<a href="https://cookpad.com/recipe/5707897">サバの塩焼き</a>、野菜ジュース、<a href="https://cookpad.com/recipe/3536135">水餃子の中華スープ</a>、卵焼き</h4>
 
     <h4>６食目　プロテイン１杯、<a href="https://cookpad.com/recipe/4730261">ほぐしチキンと卵のお粥</a></h4><br>
+     
+       <form action="index.php?" method=get">
+
+<input type="submit" value="戻る"  style="width:200px;height:50px; font size=1.83m; font-weight: hold">  <br><br>
 
 </html>
 
