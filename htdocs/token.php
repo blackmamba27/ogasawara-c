@@ -20,5 +20,6 @@ $options = array(
 $data = @file_get_contents( $url, false, stream_context_create( $options ) );
 echo $data;
 ?>
+  <meta charset='utf-8' />
 <form action="index.php?" method="get">
 <input type="submit" value="戻る" style="width:200px;height:50px; font size =1.8em; font-weight: bold">
