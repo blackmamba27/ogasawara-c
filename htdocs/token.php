@@ -1,14 +1,23 @@
+<!DOCTYPE html>
+   <html>
+     <head>
+     <meta charset='utf-8' />
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <title>Wake UP</title>
+<head>
+  </html>
+
+
 <?php
 
 
 $code = $_GET['code'];
 
-
 $url = "https://www.healthplanet.jp/oauth/token?" .
   "client_id=" . "1181.2JMsccpUcR.apps.healthplanet.jp" . 
   "&client_secret=" . "1561822101327-eyhJD4KDFmLbeyr29PlnhlFriNiof24kTa7Xa652" .
   "&redirect_uri=" . "https://www.healthplanet.jp/success.html" . // 使わないので仮設定できる値にした
-  "code=" .  $code .
+  "code=/"" ."  $code ."/"".
   "&grant_type=" . "authorization_code";  // 固定値
 $options = array(
   "http" => array(
@@ -19,4 +28,7 @@ $options = array(
 
 $data = @file_get_contents( $url, false, stream_context_create( $options ) );
 echo $data;
-
+?>
+  <meta charset='utf-8' />
+<form action="index.php?" method="get">
+<input type="submit" value="戻る" style="width:200px;height:50px; font size =1.8em; font-weight: bold">
