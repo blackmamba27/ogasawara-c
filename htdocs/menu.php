@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
    <html>
 
   <meta charset='utf-8' />
@@ -8,10 +8,10 @@
 <?php
 // データベース接続設定
 $dbServer = '127.0.0.1';
-$dbName = $_SERVER['MYSQL_DB'];
+$dbName = 'ogasawara-c';
 $dsn = "mysql:host={$dbServer};dbname={$dbName};charset=utf8";
-$dbUser = $_SERVER['MYSQL_USER'];
-$dbPass = $_SERVER['MYSQL_PASSWORD'];
+$dbUser = 'root';
+$dbPass = '';
 
 // データベースへの接続
 $db = new PDO($dsn, $dbUser, $dbPass);
@@ -59,29 +59,15 @@ $counter = $i;
 </div>
 
 <div style="margin-left:150px;">
-
   <h2>食事メニュー</h2>
-
-    <h4>１食目　卵かけご飯１杯、わかめと豆腐の味噌汁、<a href="https://cookpad.com/recipe/5740946">鳥胸肉のから揚げ</a>、<a href="https://cookpad.com/recipe/5745527">ポテトサラダ</a><h4>
-
-    <h4>２食目　<a href="https://shop.dnszone.jp/item-%E3%83%97%E3%83%AD%E3%83%86%E3%82%A4%E3%83%B3%E3%83%9B%E3%82%A8%E3%82%A4100/4573290283546.html?utm_source=dnszone&utm_medium=dnsz&utm_campaign=lineup_whey100">プロテイン１杯(おすすめ）</a>、バナナ１本</h4>
-
-    <h4>３食目　ご飯1.5杯、豚ロースの生姜焼き、<a href="https://cookpad.com/recipe/5348472">ササミと大葉のはさみ揚げ</a>、<a href="https://cookpad.com/recipe/5472061">ゴボウとレンコンのサラダ</a></h4>
-
+    <h4>１食目　卵かけご飯卵かけご飯１杯、わかめと豆腐の味噌汁、鳥のから揚げ、ポテトサラダ<h4>
+    <h4>２食目　プロテイン１杯、バナナ１本</h4>
+    <h4>３食目　ご飯1.5杯、豚ロースの生姜焼き、ササミと大葉のはさみ揚げ、ゴボウとレンコンのサラダ</h4>
     <h4>４食目　ヨーグルト、リンゴ</h4>
-
-    <h4>５食目　玄米ご飯1.5杯、<a href="https://cookpad.com/recipe/5707897">サバの塩焼き</a>、野菜ジュース、<a href="https://cookpad.com/recipe/3536135">水餃子の中華スープ</a>、卵焼き</h4>
-
-    <h4>６食目　プロテイン１杯、<a href="https://cookpad.com/recipe/4730261">ほぐしチキンと卵のお粥</a></h4><br>
-
+    <h4>５食目　玄米ご飯1.5杯、サバの塩焼き、野菜ジュース、水餃子の中華スープ、卵焼き</h4>
+    <h4>６食目　プロテイン１杯、ほぐしチキンと卵のお粥１杯</h4>
 </div>
 
-<center>
-
-<form action="index.php?" method=get">
-
-<input type="submit" value="戻る"  style="width:200px;height:50px; font size=1.83m; font-weight: hold">  <br><br>
-
-</center>
-
 </html>
+
+
