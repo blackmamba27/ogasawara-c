@@ -3,7 +3,7 @@
      <head>
      <meta charset='utf-8' />
      <title>Wake UP</title>
-     <link rel="stylesheet" href="css/styling.css">
+     <link rel="stylesheet" href="css/style.css">
      <center>
 <head>
 <p><font size="7">あなたの体重データは...</font></p><br>
