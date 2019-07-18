@@ -74,7 +74,7 @@ $json = json_decode($data,true); //JSONデータを連想配列に入れる
 
 
 <form action="menu.php?" method="get">
-<input type="submit" name="muscle_mass" style="width:200px;height:50px; font size =1.8em; font-weight: bold" value="<?php echo $val5 ?>"><h2>筋トレと食事メニューの表示</h2></button>
+<button type="submit" name="muscle_mass" value="<?php echo $val5 ?>"><h2>筋トレと食事メニューの表示</h2></button>
 <!--<h3><input type="submit" value="筋トレと食事メニューの表示" style="width:400px; height:12000x"></h3>-->
 </form>     
 </br>
