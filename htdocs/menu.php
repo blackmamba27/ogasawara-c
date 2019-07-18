@@ -74,7 +74,7 @@ $counter = $i;
 
     <h4>５食目　玄米ご飯1.5杯、<a href="https://cookpad.com/recipe/5707897">サバの塩焼き</a>、野菜ジュース、<a href="https://cookpad.com/recipe/3536135">水餃子の中華スープ</a>、卵焼き</h4>
 
-    <h4>６食目　<a href="https://www.myprotein.jp/sports-nutrition/impact-whey-protein/10530943.html">プロテイン１杯（おすすめ2)</a>、<a href="https://cookpad.com/recipe/4730261">ほぐしチキンと卵のお粥</a></h4><br>
+    <h4>６食目　<a href="https://www.myprotein.jp/sports-nutrition/impact-whey-protein/10530943.html">プロテイン１杯（おすすめ2)</a>、<a href="https://cookpad.com/recipe/4730261">サラダチキンと卵のお粥</a></h4><br>
        
        <form action="index.php?" method=get">
 
