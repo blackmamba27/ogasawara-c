@@ -54,7 +54,7 @@ $json = json_decode($data,true); //JSONデータを連想配列に入れる
 
 <?php
 
-  echo "<table border=\"1\" width='800' height='300' >";
+  echo "<table border=\"1\" width='700' height='250' >";
   echo "<tr align=center>";
   echo "<td><font size='7'>データ名</font></td>";
   echo "<td><font size='7'>データ値 </font></td>";
